@@ -10,7 +10,7 @@ const handleLogin = () =>{
 return(
 <div>
   <h1>Parent Component</h1>
-  {isLoggedIn ? (<p>you are logged in!</p>) : (<LoginForm onLogin={handleLogin} />)}
+  {isLoggedIn ? (<p>You are logged in!</p>) : (<LoginForm onLogin={handleLogin} />)}
 </div>
 );
 

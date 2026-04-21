@@ -12,14 +12,14 @@ function LoginForm({onLogin}){
   return (
     <form onSubmit={handleSubmit}>
       <div>
-        <label>UserName:</label>
+        <label>Username:</label>
         <input type="text" value={userName} placeholder="Name" onChange={(e)=> setUserName(e.target.value)} />
       </div>
 
       <br />
 
       <div>
-        <label>Password :</label>
+        <label>Password:</label>
         <input type="password" value={password} onChange={(e)=> setPassword(e.target.value)} />
       </div>
 
